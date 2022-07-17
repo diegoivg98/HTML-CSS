@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.sidebar {
+    background-color: #2b2b2b;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+div.main {
+    padding: 50px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    div.sidebar {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
