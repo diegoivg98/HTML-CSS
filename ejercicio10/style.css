@@ -1,0 +1,15 @@
+.btn-modern {
+    cursor: pointer;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    background-color: red;
+    color: white;
+    box-shadow: 0 5px 10px rgba(9, 215, 61, 0.5);
+}
